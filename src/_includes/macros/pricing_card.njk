@@ -1,0 +1,27 @@
+{% macro pricing_card(tier, price, features, cta_text, cta_style, featured) %}
+<div class="col-lg-6 col-xl-4">
+    <div class="card mb-5 mb-xl-0">
+        <div class="card-body p-5">
+            <div class="small text-uppercase fw-bold {% if not featured %}text-muted{% endif %}">
+                {% if featured %}<i class="bi bi-star-fill text-warning"></i>{% endif %}
+                {{ tier }}
+            </div>
+            <div class="mb-3">
+                <span class="display-4 fw-bold">{{ price }}</span>
+                <span class="text-muted">/ mo.</span>
+            </div>
+            <ul class="list-unstyled mb-4">
+                {% for feature in features %}
+                <li class="mb-2 {% if not feature.included %}text-muted{% endif %}">
+                    <i class="bi {% if feature.included %}bi-check text-primary{% else %}bi-x{% endif %}"></i>
+                    {% if feature.bold %}<strong>{{ feature.text }}</strong>{% else %}{{ feature.text }}{% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+            <div class="d-grid">
+                <a class="btn {{ cta_style }}" href="#!">{{ cta_text }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endmacro %}

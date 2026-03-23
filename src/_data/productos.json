@@ -1,0 +1,31 @@
+{
+  "title": "Productos",
+  "categories": [
+    { "label": "POLY (Plantronics)", "id": "poly" },
+    { "label": "WATCHGUARD", "id": "watchguard" },
+    { "label": "GIGASET", "id": "gigaset" },
+    { "label": "GRANDSTREAM", "id": "grandstream" }
+  ],
+  "news": [
+    {
+      "title": "Poly Voyager Free 60 UC con USB-C blanco",
+      "date": "13 Feb, 2024",
+      "category": "Auricular",
+      "image": "/assets/img/poly-voyager-free-60-uc-con-usb-c-blanco.jpg",
+      "description": "Auricular para PC y Smartphone Poly Voyager Free 60 UC. Cuenta con diferentes versiones, conexión USB-A o USB-C, estándar o específica para Microsoft Teams. También diferentes colores: negro o blanco.",
+      "url": "#"
+    },
+    {
+      "title": "Nuevo producto poly Voyager Free 60 Series",
+      "date": "8 Feb, 2024",
+      "category": "Auricular",
+      "image": "/assets/img/imagen-20240208-052446.png",
+      "description": "True Wireless earbuds for work and life. Legendary Poly audio for clear calls and immersive music listening. Easily configure and control your earbuds using the touchscreen charge case (Voyager Free 60+ UC). Certified for top virtual meeting providers and centrally manageable (Voyager Free 60 UC Series).",
+      "url": "#",
+      "authors": [
+        { "name": "José Vicente Mora", "avatar": "/assets/img/JM-3.webp" },
+        { "name": "Hugo Mora", "avatar": "/assets/img/HM-1.webp" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{% macro accordion_group(id, items) %}
+<div class="accordion mb-5" id="{{ id }}">
+    {% for item in items %}
+    <div class="accordion-item">
+        <h3 class="accordion-header" id="heading-{{ id }}-{{ loop.index }}">
+            <button
+                class="accordion-button {% if not loop.first %}collapsed{% endif %}"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-{{ id }}-{{ loop.index }}"
+                aria-expanded="{{ 'true' if loop.first else 'false' }}"
+                aria-controls="collapse-{{ id }}-{{ loop.index }}">
+                {{ item.question }}
+            </button>
+        </h3>
+        <div
+            class="accordion-collapse collapse {% if loop.first %}show{% endif %}"
+            id="collapse-{{ id }}-{{ loop.index }}"
+            aria-labelledby="heading-{{ id }}-{{ loop.index }}"
+            data-bs-parent="#{{ id }}">
+            <div class="accordion-body">{{ item.answer }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endmacro %}

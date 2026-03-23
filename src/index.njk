@@ -1,0 +1,84 @@
+---
+layout: layouts/base.njk
+title: Inicio
+---
+{% from "macros/image_card.njk" import image_card %}
+
+<!-- Hero -->
+<header class="lbl-hero bg-dark text-white py-6">
+    <div class="container px-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 text-center">
+                <h1 class="display-5 fw-bold mb-3">{{ home.hero.title }}</h1>
+                <p class="lead text-white-50 mb-5">{{ home.hero.subtitle }}</p>
+                <a class="btn btn-primary btn-lg px-5 me-3" href="/productos/">Ver Productos</a>
+                <a class="btn btn-outline-light btn-lg px-5" href="/servicios/">Nuestros Servicios</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Feature cards -->
+<section class="py-6 bg-white">
+    <div class="container px-5">
+        <div class="row gx-5">
+            {% for card in home.cards %}
+            {{ image_card(card.image, card.title, card.description, card.cta.label, card.cta.url) }}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Contact section -->
+<section class="py-6 bg-light" id="contacto">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-start">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+                <h2 class="fw-bold mb-2">{{ home.contact.title }}</h2>
+                <p class="text-muted mb-4">
+                    {{ home.contact.description }}
+                    <a href="mailto:{{ site.support_email }}">{{ site.support_email }}</a>
+                </p>
+                <form id="contactForm">
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="nombre" type="text" placeholder="Nombre..." required />
+                        <label for="nombre">Nombre completo</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="email" type="email" placeholder="email@ejemplo.com" required />
+                        <label for="email">Correo electrónico</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="telefono" type="tel" placeholder="Teléfono..." />
+                        <label for="telefono">Teléfono (opcional)</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" id="mensaje" placeholder="Mensaje..." style="height: 9rem" required></textarea>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn btn-dark btn-lg" type="submit">Enviar mensaje</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4 offset-lg-1">
+                <div class="card border-0 bg-dark text-white p-4">
+                    <h5 class="fw-bold mb-4">
+                        <i class="bi bi-geo-alt-fill me-2 text-primary"></i>Contacto
+                    </h5>
+                    <p class="text-white-50 mb-3">
+                        <i class="bi bi-house-fill me-2"></i>{{ site.address }}
+                    </p>
+                    <p class="mb-3">
+                        <i class="bi bi-envelope-fill me-2 text-primary"></i>
+                        <a class="text-white text-decoration-none" href="mailto:{{ site.email }}">{{ site.email }}</a>
+                    </p>
+                    <p class="mb-0">
+                        <i class="bi bi-telephone-fill me-2 text-primary"></i>
+                        <a class="text-white text-decoration-none" href="tel:{{ site.phone }}">{{ site.phone }}</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,79 @@
+/* ==========================================
+   Lobellcom - Brand CSS overrides
+   ========================================== */
+
+body {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  color: #111111;
+}
+
+/* Spacing utility */
+.py-6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Hero */
+.lbl-hero {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: linear-gradient(135deg, #111111 0%, #2d2d2d 100%);
+}
+
+/* Navbar */
+.navbar-brand img {
+  filter: brightness(0) invert(1);
+}
+
+/* Feature icon */
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+/* Cards */
+.card {
+  border-radius: 0.75rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1) !important;
+}
+
+/* Buttons */
+.btn-dark {
+  background-color: #111111;
+  border-color: #111111;
+}
+
+.btn-dark:hover {
+  background-color: #333333;
+  border-color: #333333;
+}
+
+.btn-outline-dark {
+  color: #111111;
+  border-color: #111111;
+}
+
+.btn-outline-dark:hover {
+  background-color: #111111;
+  color: white;
+}
+
+/* Typography */
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+/* Footer */
+footer a:hover {
+  color: white !important;
+}

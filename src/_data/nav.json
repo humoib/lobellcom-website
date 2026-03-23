@@ -1,0 +1,12 @@
+{
+  "brand": "Lobellcom",
+  "brand_url": "/",
+  "logo": "/assets/img/e978ed1a-0a49-48a2-a3db-ddc56d898e3b.webp",
+  "links": [
+    { "label": "Inicio", "url": "/" },
+    { "label": "Productos", "url": "/productos/" },
+    { "label": "Servicios", "url": "/servicios/" },
+    { "label": "Quiénes somos", "url": "/quienes-somos/" }
+  ],
+  "dropdowns": []
+}

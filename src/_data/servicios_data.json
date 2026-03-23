@@ -1,0 +1,117 @@
+{
+  "services": [
+    {
+      "slug": "voz-sobre-ip",
+      "name": "Voz sobre IP",
+      "tagline": "Servicios de Telefonía Profesionales para Pymes",
+      "subtitle": "MOVILIDAD · REDUCCIÓN DE COSTES · ALTA DISPONIBILIDAD",
+      "heading": "LA TELEFONÍA DEL SIGLO XXI.",
+      "image": "/assets/img/servicios/721317_2392669.jpg",
+      "description": "El servicio de Telefonía IP va más allá de lo que permite la telefonía tradicional. Con nuestro servicio de telefonía a través de Internet (Telefonía IP) ofrecemos a las empresas la más avanzada tecnología de voz, un servicio inteligente que nos permite suministrar a nuestros clientes fiabilidad, calidad, y reducción de costes. Con llamadas realizadas a través de nuestro servicio se reduce notablemente los costes en los servicios de voz hasta un 50% en las llamadas nacionales e internacionales.",
+      "features": [
+        "Número geográfico y portabilidad",
+        "Buzones de voz IVR (Respuesta vocal interactiva) 24 horas",
+        "Voicemail al correo en formato de audio",
+        "Grabación de llamadas",
+        "Función No Molestar",
+        "Envío y recepción de faxes",
+        "Llamadas concurrentes ilimitadas",
+        "Videollamadas",
+        "Colas de llamadas",
+        "Tarificación por segundos. Pago por uso. Sin permanencia",
+        "Interconexión de oficinas con llamadas gratuitas entre ellas",
+        "Panel web para administrar CDR's, ver llamadas activas y descargar facturas"
+      ]
+    },
+    {
+      "slug": "voip-particulares",
+      "name": "VoIP para particulares",
+      "tagline": "TELEFONÍA RESIDENCIAL - LÍNEA SIP PARA PARTICULARES",
+      "subtitle": "Donde sólo tienes acceso a Internet y no dispones de una línea telefónica tradicional",
+      "heading": "¡ESTE ES TU PRODUCTO!",
+      "image": "/assets/img/servicios/2392702_2294337.jpg",
+      "description": "Un producto ideal para zonas rurales a las que no llegan las grandes operadoras. Sin necesidad de línea de teléfono. Alta gratuita. Sencilla instalación. Nosotros te proporcionamos la Cuenta SIP con más alta Calidad del mercado. Podrás realizar llamadas tanto nacionales como internacionales.",
+      "features": [
+        "Por solo 12 € + IVA al mes (incluye 1.000 min. en llamadas nacionales)",
+        "Número Geográfico Nacional gratuito de cualquier provincia española",
+        "Panel web para configurar tu línea, realizar desvíos y ver consumo en tiempo real",
+        "Llamadas nacionales: 0,02 €/min",
+        "Llamadas a móviles: 0,092 €/min",
+        "Sin establecimiento de llamada - Tarificación por segundos - Sin límite mensual",
+        "Compatible con Teléfono IP o adaptador VoIP para terminales analógicos"
+      ]
+    },
+    {
+      "slug": "prtg-paessler",
+      "name": "PRTG de PAESSLER",
+      "tagline": "PRTG Network Monitor",
+      "subtitle": "La solución de supervisión n.º 1 para entornos de TI de tamaño pequeño a mediano",
+      "heading": "Monitoriza tu red con Paessler PRTG",
+      "image": "/assets/img/servicios/2392230_2293928.png",
+      "description": "Paessler PRTG es un software de monitorización de red que analiza procesos continuamente en la red, realiza informes y alerta en el momento en el que se produce un error o los valores críticos se sobrepasan. Con PRTG, podrás monitorizar toda tu infraestructura las 24 horas del día, los 7 días de la semana, recibirás alertas de problemas antes incluso de que los usuarios se den cuenta.",
+      "features": [
+        "Supervisa todos los sistemas, dispositivos, tráfico y aplicaciones de tu infraestructura",
+        "Se ajusta perfectamente tanto a un solo administrador como a un equipo de gestión integral",
+        "Flexibilidad para decidir cuándo mejorar tu licencia",
+        "Licencia perpetua",
+        "Alertas en tiempo real antes de que los usuarios detecten el problema",
+        "Informes detallados y panel de control centralizado",
+        "Intervención rápida, incluso de forma remota"
+      ]
+    },
+    {
+      "slug": "watchguard-epdr",
+      "name": "WatchGuard EPDR",
+      "tagline": "Protección, detección y respuesta de endpoints",
+      "subtitle": "Una solución completa para la seguridad de endpoints",
+      "heading": "Protección contra ciberataques modernos",
+      "image": "/assets/img/servicios/2392321_2294312.png",
+      "description": "WatchGuard EPDR reúne funcionalidades de protección de endpoints (EPP) y de detección y respuesta (EDR) en un solo producto. Combinamos técnicas tradicionales con funciones avanzadas para proporcionar una oferta única y completa. Supervisión continua de endpoints, detección y clasificación de toda la actividad para revelar y bloquear comportamientos anómalos.",
+      "features": [
+        "EDR para supervisión continua que impide la ejecución de procesos desconocidos",
+        "Detección y respuesta automáticas para ataques dirigidos y vulnerabilidades en memoria",
+        "Zero Trust Application y Threat Hunting como servicios administrados",
+        "Análisis de comportamiento y detección de scripts y macros (IoA)",
+        "Filtrado de URLs, control de dispositivos y firewall gestionado",
+        "Agente ligero y consola en la nube fácil de usar con informes detallados",
+        "Protege contra APT, malware de día cero, ransomware, rootkits y ataques sin malware"
+      ]
+    },
+    {
+      "slug": "authpoint-mfa",
+      "name": "AuthPoint Multi-Factor Authentication",
+      "tagline": "AuthPoint Identity Security",
+      "subtitle": "Protección eficaz de MFA con exclusivo ADN móvil",
+      "heading": "Mantenga a los delincuentes fuera de su red con AuthPoint",
+      "image": "/assets/img/servicios/2326960_2392626.png",
+      "description": "AuthPoint MFA usa el ADN de dispositivo móvil para verificar el teléfono del usuario autorizado en el momento de otorgar acceso a sistemas y aplicaciones. Nuestra solución de autenticación multifactor no solo ayuda a reducir la probabilidad de interrupciones en la red y las brechas de datos que surgen de credenciales perdidas o robadas.",
+      "features": [
+        "Verificación mediante ADN de dispositivo móvil único",
+        "Bloquea ataques de clonación de dispositivos",
+        "Autenticación para red, VPN y aplicaciones en la nube",
+        "Amplio ecosistema de integraciones de terceros",
+        "Configuración y administración sencilla desde la nube",
+        "Aplicación móvil intuitiva incluso para usuarios sin conocimientos técnicos",
+        "Va más allá de la autenticación tradicional de dos factores (2FA)"
+      ]
+    },
+    {
+      "slug": "watchguard-epp",
+      "name": "WatchGuard EPP",
+      "tagline": "Plataforma WatchGuard de protección de Endpoints",
+      "subtitle": "Protección avanzada más allá del antivirus tradicional",
+      "heading": "Seguridad de endpoints gestionada desde la nube",
+      "image": "/assets/img/servicios/2392321_2326858.png",
+      "description": "Protección de endpoints más allá del antivirus basado en firmas, contra malware, ransomware y amenazas de día cero. Consola gestionada en la nube con agente ligero y mínimo impacto en el rendimiento. Desinfección avanzada, firewall de endpoint gestionado e informes de seguridad detallados en tiempo real.",
+      "features": [
+        "Protección contra malware, ransomware y amenazas de día cero",
+        "Consola de gestión en la nube con agente ligero",
+        "Desinfección avanzada y 'congelador' de malware para aislamiento y recuperación",
+        "Firewall de endpoint gestionado",
+        "Filtrado web y monitorización de actividad",
+        "Informes de seguridad detallados en tiempo real",
+        "Mínimo impacto en el rendimiento del sistema"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "brands": [
+    {
+      "id": "poly",
+      "name": "POLY (Plantronics)",
+      "description": "Nos centramos en la comercialización de auriculares HP-Poly y productos y accesorios en el entorno de las comunicaciones. Fabricantes y marcas punteras en el ámbito de las Comunicaciones Unificadas.",
+      "subcategories": [
+        {
+          "name": "Auriculares",
+          "products": [
+            {
+              "slug": "poly-voyager-4310",
+              "name": "Poly Voyager 4310 UC",
+              "description": "Libera a tus trabajadores de sus escritorios con los auriculares inalámbricos Bluetooth de nivel básico perfectos. Mantén la productividad con una comodidad que dura todo el día y la tecnología Acoustic Fence de doble micrófono que elimina el ruido de fondo. Bluetooth v5.2, hasta 24h de conversación, hasta 50 metros de alcance.",
+              "image": "/assets/img/productos/2293776_2360112.png"
+            },
+            {
+              "slug": "poly-voyager-5200",
+              "name": "Poly Auricular Bluetooth Voyager 5200 UC",
+              "description": "Auricular Bluetooth que permite atender llamadas del PC y del móvil con calidad de sonido mejorada y 4 micrófonos. Incluye dongle Poly BT600. Tecnología WindSmart, alcance hasta 30 metros, resistente a la humedad y conectividad multi-dispositivo.",
+              "image": "/assets/img/productos/2294069_2327024.jpg"
+            },
+            {
+              "slug": "poly-voyager-legend",
+              "name": "Poly Auricular Bluetooth Voyager Legend",
+              "description": "Auricular Bluetooth multipunto con Smart Sensor que responde automáticamente al colocarse en la oreja. Cancelación de ruido superior, claridad de banda ancha para PC, tecnología A2DP, protección de audio SoundGuard, 7 horas de conversación y revestimiento resistente al sudor.",
+              "image": "/assets/img/productos/2294095_2294109.jpg"
+            },
+            {
+              "slug": "poly-voyager-focus-2",
+              "name": "Poly Voyager Focus 2 UC",
+              "description": "Auricular inalámbrico premium con cancelación activa de ruido híbrida (3 niveles), tecnología de micrófono Acoustic Fence para entornos de oficina, Smart Sensors para respuesta automática. 19 horas de conversación con ANC activo. Versión certificada para Microsoft Teams con base de carga USB-C.",
+              "image": "/assets/img/productos/2392071_2293853.jpg"
+            },
+            {
+              "slug": "poly-blackwire-3310",
+              "name": "Poly Blackwire 3310",
+              "description": "Auricular con cable de la serie 3300 con diseño monoaural, disponible en USB-A o USB-C y versión estándar o Microsoft. Se conecta al PC vía USB y soporta conexión de 3,5mm para dispositivos móviles y tablets.",
+              "image": "/assets/img/productos/2294282_2360286.jpg"
+            },
+            {
+              "slug": "poly-blackwire-3320",
+              "name": "Poly Blackwire 3320",
+              "description": "Auricular con cable binaural de la serie 3300. Diseño de doble oreja para mayor inmersión sonora, disponible en múltiples tipos de conector y versiones. Certificado para plataformas de reuniones virtuales líderes.",
+              "image": "/assets/img/productos/2327308_2294293.jpg"
+            },
+            {
+              "slug": "poly-encore-pro-310",
+              "name": "Poly Encore Pro 310 QD",
+              "description": "Auricular monoaural para call center con terminación QD (Quick Disconnect) para teléfonos fijos. Protección SoundGuard contra picos de ruido, cojines auditivos cómodos para uso intensivo durante todo el día.",
+              "image": "/assets/img/productos/2359356_2360164.png"
+            }
+          ]
+        },
+        {
+          "name": "Videoconferencia",
+          "products": [
+            {
+              "slug": "poly-studio-p15",
+              "name": "Poly Studio P15",
+              "description": "Webcam personal profesional con óptica excepcional y audio potente. Encuadre automático de cámara, Ultra HD (4K), certificada para Zoom y Microsoft Teams. Array de micrófono de 3 elementos, tecnología Poly NoiseBlockAI y Acoustic Fence. 1 puerto USB-C 3.0, 2 USB-A.",
+              "image": "/assets/img/productos/2293814_2294117.jpg"
+            },
+            {
+              "slug": "poly-studio-p5",
+              "name": "Poly Studio P5",
+              "description": "Cámara HD compacta (1080p/720p) con campo de visión de 80°, zoom digital 4x con EPTZ, compensación de poca luz, micrófono unidireccional optimizado para espacios de trabajo personales. Compatible USB 2.0 con Windows/Mac.",
+              "image": "/assets/img/productos/2392100_2392430.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Altavoces",
+          "products": [
+            {
+              "slug": "poly-sync-20",
+              "name": "Poly Sync 20 USB-A",
+              "description": "Altavoz portátil con conectividad USB y Bluetooth, batería de 20 horas, certificado para Zoom. Array inteligente de micrófonos con reducción de eco y ruido. Calidad de sonido excepcional para reuniones y música.",
+              "image": "/assets/img/productos/2294059_2360013.png"
+            },
+            {
+              "slug": "poly-sync-40",
+              "name": "Poly SYNC 40 USB-A para Teams",
+              "description": "Altavoz inteligente certificado para Zoom con array inteligente de múltiples micrófonos, hasta 30 horas de batería, carga USB para teléfonos, botón de función programable. Resistencia IP64 al polvo y al agua, certificación Microsoft Teams disponible.",
+              "image": "/assets/img/productos/2294069_2392394.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Accesorios",
+          "products": [
+            {
+              "slug": "poly-hl10",
+              "name": "Poly Base descolgadora HL10",
+              "description": "Descolgador automático de auricular telefónico para responder llamadas con solo pulsar un botón desde el auricular inalámbrico. Accesorio pequeño, compacto y discreto compatible con auriculares CS60, CS70N, CS351N y CS361N.",
+              "image": "/assets/img/productos/2392646_2360307.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "watchguard",
+      "name": "WATCHGUARD",
+      "description": "Las potentes soluciones de WatchGuard orientadas al cliente ofrecen el desempeño y la visibilidad necesarios para prevenir y detectar las amenazas avanzadas de la actualidad.",
+      "subcategories": [
+        {
+          "name": "Firebox de escritorio",
+          "products": [
+            {
+              "slug": "watchguard-t25",
+              "name": "WatchGuard Firebox T25",
+              "description": "Dispositivo pequeño que ofrece alta seguridad en entornos de oficinas pequeñas y oficinas en casa. Ideal como solución de firewall independiente o gateway VPN para inspecciones de tráfico centralizadas. Permite administrar e implementar directivas en la red extendida con protección UTM completa.",
+              "image": "/assets/img/productos/2392252_2392575.png"
+            },
+            {
+              "slug": "watchguard-t45",
+              "name": "WatchGuard Firebox T45",
+              "description": "Solución de seguridad pequeña y potente para sucursales. Seguridad de red de nivel empresarial con soporte completo del Total Security Suite por primera vez en este popular modelo de escritorio, ideal para entornos de trabajo distribuido.",
+              "image": "/assets/img/productos/2392369_2392569.png"
+            },
+            {
+              "slug": "watchguard-t85",
+              "name": "WatchGuard Firebox T85",
+              "description": "Firewall de escritorio personalizable de alto rendimiento con módulos de expansión de puertos opcionales. Uno de los dispositivos de escritorio de mayor rendimiento del mercado con conectividad de fibra y capacidad de evolucionar con las necesidades cambiantes de conectividad.",
+              "image": "/assets/img/productos/2359982_2392559.png"
+            },
+            {
+              "slug": "watchguard-m290-m390",
+              "name": "WatchGuard Firebox M290 y M390",
+              "description": "Seguridad de nivel empresarial para pequeñas y medianas empresas. Diseñados para defenderse contra los sofisticados ciberataques dirigidos a empresas pequeñas, que son cada vez más vulnerables. Proporciona protección robusta para redes empresariales.",
+              "image": "/assets/img/productos/2294201_2360200.png"
+            }
+          ]
+        },
+        {
+          "name": "Firebox de rack",
+          "products": [
+            {
+              "slug": "watchguard-m590-m690",
+              "name": "WatchGuard Firebox M590 y M690",
+              "description": "Firewalls para empresas medianas y distribuidas. Capacidad hasta 87 Gbps de firewall y 11,3 Gbps UTM. Procesadores multinúcleo que evitan cuellos de botella de rendimiento con el crecimiento del tráfico cifrado. Incluye informes en WatchGuard Cloud.",
+              "image": "/assets/img/productos/2294226_2360209.png"
+            },
+            {
+              "slug": "watchguard-m4800-m5800",
+              "name": "WatchGuard Firebox M4800 y M5800",
+              "description": "Firewalls de alto rendimiento con 87 Gbps de firewall y 11,3 Gbps UTM para entornos hub-and-spoke distribuidos. Adecuados para sedes corporativas que gestionan comunicaciones entre oficinas y empleados remotos. Interfaz de red modular personalizable.",
+              "image": "/assets/img/productos/2327227_2294264.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gigaset",
+      "name": "GIGASET",
+      "description": "Los teléfonos Gigaset combinan las funciones de telefonía más importantes con un diseño especialmente fino y compacto, tanto para telefonía analógica, inalámbrica DECT como IP.",
+      "subcategories": [
+        {
+          "name": "Sistemas DECT",
+          "products": [
+            {
+              "slug": "gigaset-n870",
+              "name": "Sistema Gigaset N870 IP Pro",
+              "description": "Sistema DECT multi-célula escalable que proporciona comunicaciones digitales seguras. Despliegue flexible: SMALL (10 dispositivos), MEDIUM (60 dispositivos), LARGE/ENTERPRISE (6000+ bases N870). Con PoE o 220V, aprovisionamiento remoto, soporta 250 terminales DECT por zona.",
+              "image": "/assets/img/productos/2850852_2883606.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grandstream",
+      "name": "GRANDSTREAM",
+      "description": "Desarrollar una solución potente y personalizada para cada individuo agiliza la comunicación y la eficiencia de la carga de trabajo. Grandstream hace que los dispositivos telefónicos de última generación sean más accesibles y fáciles de implementar que nunca.",
+      "subcategories": [
+        {
+          "name": "Telefonía IP",
+          "products": [
+            {
+              "slug": "grandstream-grp2602",
+              "name": "Grandstream GRP2602",
+              "description": "Modelo básico de 2 líneas con aprovisionamiento zero-touch para despliegue masivo. Diseño elegante con conferencia de voz de 5 participantes, altavoz FULL HD con tecnología Noise Shield, protección empresarial con arranque seguro e imágenes de firmware dual.",
+              "image": "/assets/img/productos/2360374_2294419.jpg"
+            },
+            {
+              "slug": "grandstream-grp2604",
+              "name": "Grandstream GRP2604",
+              "description": "Teléfono IP básico de 3 líneas con aprovisionamiento zero-touch para despliegue masivo. Diseño elegante con conferencia de voz de 5 participantes. Dispone de 2 puertos Gigabit, pantalla LCD 132x64, 10 teclas BLF y audio HD.",
+              "image": "/assets/img/productos/2294427_2327467.jpg"
+            },
+            {
+              "slug": "grandstream-grp2615",
+              "name": "Grandstream GRP2615",
+              "description": "Teléfono IP profesional con 10 teclas de línea y 5 cuentas SIP, Wi-Fi y Bluetooth integrados, 2 puertos Gigabit. Pantalla LCD en color de 4,3 pulgadas, 40 teclas multipropósito, placa frontal intercambiable para personalización de logo.",
+              "image": "/assets/img/productos/2327500_2327510.jpg"
+            },
+            {
+              "slug": "grandstream-grp2624",
+              "name": "Grandstream GRP2624",
+              "description": "Teléfono IP profesional de 8 líneas con aprovisionamiento zero-touch, Wi-Fi 802.11 a/b/g/n/ac dual-band integrado, Bluetooth, audio full-duplex, tecnología Noise Shield. Soporta conferencia de 5 participantes, módulos de extensión GBX20, plataforma de gestión GDMS.",
+              "image": "/assets/img/productos/2327482_2392802.jpg"
+            },
+            {
+              "slug": "grandstream-gxp1625",
+              "name": "Grandstream GXP1625",
+              "description": "Teléfono IP de 2 líneas para pequeñas empresas con 3 teclas XML programables, audio HD, conferencia tripartita. PoE integrado, pantalla LCD 132x48, soporta hasta 500 contactos y 200 registros de llamadas.",
+              "image": "/assets/img/productos/2294385_2392753.jpg"
+            },
+            {
+              "slug": "grandstream-gxp1628",
+              "name": "Grandstream GXP1628",
+              "description": "Teléfono IP de oficina versátil de alta calidad (modelo más alto de la serie Small Business) con 1 puerto Gigabit. 2 líneas, 3 teclas soft XML, 8 teclas BLF, conferencia tripartita, audio HD, soporte multiidioma y PoE integrado.",
+              "image": "/assets/img/productos/2392771_2327405.jpg"
+            },
+            {
+              "slug": "grandstream-gxp2130",
+              "name": "Grandstream GXP2130",
+              "description": "Teléfono IP empresarial avanzado de 3 líneas con pantalla TFT en color de 2,8 pulgadas, 4 teclas XML sensibles al contexto, 8 teclas BLF, doble puerto Gigabit con PoE. Conferencia de 4 vías, soporte EHS para auriculares, aprovisionamiento TR-069.",
+              "image": "/assets/img/productos/2294408_2327412.jpg"
+            },
+            {
+              "slug": "grandstream-gxv3240",
+              "name": "Grandstream GXV3240",
+              "description": "Videoteléfono IP con 6 líneas, sistema operativo Android, Bluetooth, pantalla táctil de 4,3 pulgadas, puertos Gigabit, navegador web, Wi-Fi, audio HD y PoE. Combina videoteléfono con videoconferencia multiplataforma y funcionalidad de smartphone.",
+              "image": "/assets/img/productos/2392783_2327431.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Centralitas IP",
+          "products": [
+            {
+              "slug": "grandstream-ucm6301",
+              "name": "Grandstream UCM6301",
+              "description": "IP PBX que unifica comunicaciones empresariales (voz, videollamadas, conferencias, reuniones web, datos, movilidad). 500 usuarios, 100 llamadas simultáneas, 12 participantes Full-HD, 1 puerto FXO/FXS, pantalla táctil.",
+              "image": "/assets/img/productos/2294444_2294494.jpg"
+            },
+            {
+              "slug": "grandstream-ucm6302",
+              "name": "Grandstream UCM6302",
+              "description": "Plataforma IP PBX mejorada para comunicaciones unificadas. 1000 usuarios, 200 llamadas simultáneas, 20 participantes Full-HD, 150 participantes de audio, 2 puertos FXO/FXS, pantalla LCD táctil.",
+              "image": "/assets/img/productos/2392842_2294510.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Puntos de acceso WiFi",
+          "products": [
+            {
+              "slug": "grandstream-gwn7615",
+              "name": "Grandstream GWN7615",
+              "description": "Punto de acceso Wi-Fi empresarial con 802.11ac Wave-2, 3×3:3 MU-MIMO dual-band para entornos de densidad media-alta. Diseño de controlador integrado sin controlador externo, compatible con GWN.Cloud y GWN Manager, soporta más de 200 clientes simultáneos.",
+              "image": "/assets/img/productos/2392852_2392862.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Gateways y ATA",
+          "products": [
+            {
+              "slug": "grandstream-gxw4501",
+              "name": "Grandstream GXW4501",
+              "description": "Gateway VoIP digital E1/T1 que permite la integración PSTN/ISDN con redes VoIP. 1 puerto RJ45 con hasta 30 llamadas VoIP simultáneas, 2 puertos de red Gigabit, pantalla LCD, soporte de codecs de voz y fax.",
+              "image": "/assets/img/productos/2294550_2392885.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

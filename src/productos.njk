@@ -1,0 +1,67 @@
+---
+layout: layouts/base.njk
+title: Productos
+permalink: /productos/
+---
+
+<!-- Header -->
+<header class="bg-dark text-white py-5">
+  <div class="container px-5">
+    <h1 class="fw-bold mb-1">Productos</h1>
+    <p class="text-white-50 lead mb-0">Productos y accesorios de las mejores marcas en comunicaciones</p>
+  </div>
+</header>
+
+<!-- Brand nav -->
+<div class="bg-white border-bottom sticky-top shadow-sm">
+  <div class="container px-5">
+    <nav class="d-flex gap-4 py-3 overflow-auto">
+      {% for brand in productos_data.brands %}
+      <a href="#{{ brand.id }}" class="text-decoration-none text-dark fw-semibold small text-nowrap">{{ brand.name }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</div>
+
+<!-- Brand sections -->
+{% for brand in productos_data.brands %}
+<section class="py-6 {% if loop.index is even %}bg-light{% endif %}" id="{{ brand.id }}">
+  <div class="container px-5">
+    <div class="mb-5">
+      <h2 class="fw-bold">{{ brand.name }}</h2>
+      <p class="text-muted">{{ brand.description }}</p>
+    </div>
+    {% for subcat in brand.subcategories %}
+    <h3 class="fw-semibold fs-6 text-uppercase text-muted mb-4 border-bottom pb-2">{{ subcat.name }}</h3>
+    <div class="row gx-4 mb-5">
+      {% for product in subcat.products %}
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div style="height:200px;overflow:hidden;background:#f8f9fa;">
+            <img src="{{ product.image }}" alt="{{ product.name }}"
+              class="w-100 h-100" style="object-fit:contain;padding:1rem;" />
+          </div>
+          <div class="card-body p-4">
+            <h4 class="h6 fw-bold mb-2">{{ product.name }}</h4>
+            <p class="text-muted small mb-0">{{ product.description }}</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 p-4 pt-0">
+            <a href="/#contacto" class="btn btn-outline-dark btn-sm">Solicitar información</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+<!-- CTA -->
+<section class="py-6 bg-dark text-white text-center">
+  <div class="container px-5">
+    <h3 class="fw-bold mb-2">¿Necesitas asesoramiento sobre algún producto?</h3>
+    <p class="text-white-50 mb-4">Contáctanos y te ayudamos a encontrar la mejor solución.</p>
+    <a href="/#contacto" class="btn btn-primary btn-lg px-5">Contacta con nosotros</a>
+  </div>
+</section>

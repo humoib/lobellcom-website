@@ -1,0 +1,26 @@
+{
+  "title": "Servicios ofrecidos",
+  "subtitle": "Aquí puedes revisar todos nuestros servicios.",
+  "items": [
+    {
+      "title": "Voz sobre IP",
+      "description": "Ofrecemos soluciones de telefonía IP para empresas de cualquier tamaño, con la más avanzada tecnología de voz sobre IP.",
+      "icon": "bi-telephone-fill"
+    },
+    {
+      "title": "VoIP para particulares",
+      "description": "Servicio de telefonía IP para particulares con tarifas competitivas y alta calidad de llamada.",
+      "icon": "bi-phone-fill"
+    },
+    {
+      "title": "PRTG de PAESSLER",
+      "description": "Monitorización de redes y sistemas con PRTG Network Monitor de Paessler, la solución líder en monitorización IT.",
+      "icon": "bi-graph-up"
+    },
+    {
+      "title": "Servicios Watchguard",
+      "description": "Soluciones de ciberseguridad WatchGuard para proteger su red empresarial frente a amenazas avanzadas.",
+      "icon": "bi-shield-fill-check"
+    }
+  ]
+}

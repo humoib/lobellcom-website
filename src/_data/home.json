@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "title": "Lopez Bello Comunicaciones",
+    "subtitle": "Empresa Líder en soluciones integrales de comunicaciones, conectando a personas y empresas a través de servicios avanzados de telecomunicaciones, internet de alta velocidad y soluciones empresariales personalizadas desde 1.989"
+  },
+  "cards": [
+    {
+      "image": "/assets/img/6e1a0a6c-9a28-49b0-b318-56b54dcaa032.webp",
+      "title": "Productos",
+      "description": "Nos centramos en la comercialización de auriculares HP-Poly y productos y accesorios en el entorno de las comunicaciones. Fabricantes y marcas punteras en el ámbito de las Comunicaciones Unificadas.",
+      "cta": { "label": "Más información", "url": "/productos/" }
+    },
+    {
+      "image": "/assets/img/83a6f5c6-3822-45ab-bf48-d9837d201eda.webp",
+      "title": "Servicio VoIP",
+      "description": "Con nuestro servicio de telefonía a través de Internet (Telefonia IP) ofrecemos a las empresas la más avanzada tecnología de voz, un servicio inteligente que nos permite suministrar a nuestros clientes fiabilidad, calidad, y reducción de costes.",
+      "cta": { "label": "Más información", "url": "/servicios/" }
+    },
+    {
+      "image": "/assets/img/726571b8-be19-4ef3-8477-15eeff1e1149.webp",
+      "title": "Ciberseguridad",
+      "description": "Las potentes soluciones de WatchGuard orientadas al cliente ofrecen el desempeño y la visibilidad necesarios para prevenir y detectar las amenazas avanzadas de la actualidad.",
+      "cta": { "label": "Más información", "url": "/servicios/" }
+    }
+  ],
+  "contact": {
+    "title": "Contacta con nosotros",
+    "description": "Si tienes cualquier duda, por favor rellena tus datos en este formulario o manda correo a:"
+  }
+}
