@@ -2,12 +2,12 @@
 <div class="col-lg-4 mb-5">
   <div class="card h-100 border-0 shadow-sm">
     <div class="card-img-wrapper" style="height: 220px; overflow: hidden;">
-      <img src="{{ image }}" alt="{{ title }}" style="width:100%; height:100%; object-fit:cover;" />
+      <img src="{{ image | url }}" alt="{{ title }}" style="width:100%; height:100%; object-fit:cover;" />
     </div>
     <div class="card-body p-4">
       <h3 class="h5 fw-bolder mb-3">{{ title }}</h3>
       <p class="text-muted mb-4">{{ description }}</p>
-      <a href="{{ cta_url }}" class="btn btn-outline-dark btn-sm">{{ cta_label }}</a>
+      <a href="{{ cta_url | url }}" class="btn btn-outline-dark btn-sm">{{ cta_label }}</a>
     </div>
   </div>
 </div>

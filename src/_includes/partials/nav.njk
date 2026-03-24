@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container px-5">
-        <a class="navbar-brand d-flex align-items-center gap-2" href="{{ nav.brand_url }}">
-            <img src="{{ nav.logo }}" alt="{{ nav.brand }}" height="32" />
+        <a class="navbar-brand d-flex align-items-center gap-2" href="{{ nav.brand_url | url }}">
+            <img src="{{ nav.logo | url }}" alt="{{ nav.brand }}" height="32" />
             <span class="fw-semibold">{{ nav.brand }}</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -15,7 +15,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 {% for link in nav.links %}
                 <li class="nav-item">
-                    <a class="nav-link {% if page.url == link.url %}active{% endif %}" href="{{ link.url }}">{{ link.label }}</a>
+                    <a class="nav-link {% if page.url == link.url %}active{% endif %}" href="{{ link.url | url }}">{{ link.label }}</a>
                 </li>
                 {% endfor %}
                 {% for dropdown in nav.dropdowns %}
@@ -24,7 +24,7 @@
                         data-bs-toggle="dropdown" aria-expanded="false">{{ dropdown.label }}</a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="{{ dropdown.id }}">
                         {% for item in dropdown.items %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.label }}</a></li>
+                        <li><a class="dropdown-item" href="{{ item.url | url }}">{{ item.label }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>

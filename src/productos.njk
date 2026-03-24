@@ -38,7 +38,7 @@ permalink: /productos/
       <div class="col-md-6 col-lg-4 mb-4">
         <div class="card h-100 border-0 shadow-sm">
           <div style="height:200px;overflow:hidden;background:#f8f9fa;">
-            <img src="{{ product.image }}" alt="{{ product.name }}"
+            <img src="{{ product.image | url }}" alt="{{ product.name }}"
               class="w-100 h-100" style="object-fit:contain;padding:1rem;" />
           </div>
           <div class="card-body p-4">
@@ -46,8 +46,8 @@ permalink: /productos/
             <p class="text-muted small mb-0">{{ product.description }}</p>
           </div>
           <div class="card-footer bg-transparent border-0 p-4 pt-0 d-flex gap-2">
-            <a href="/#contacto" class="btn btn-outline-dark btn-sm">Solicitar información</a>
-            <a href="/" class="btn btn-outline-secondary btn-sm"><i class="bi bi-house me-1"></i>Inicio</a>
+            <a href="{{ '/#contacto' | url }}" class="btn btn-outline-dark btn-sm">Solicitar información</a>
+            <a href="{{ '/' | url }}" class="btn btn-outline-secondary btn-sm"><i class="bi bi-house me-1"></i>Inicio</a>
           </div>
         </div>
       </div>
@@ -63,6 +63,6 @@ permalink: /productos/
   <div class="container px-5">
     <h3 class="fw-bold mb-2">¿Necesitas asesoramiento sobre algún producto?</h3>
     <p class="text-white-50 mb-4">Contáctanos y te ayudamos a encontrar la mejor solución.</p>
-    <a href="/#contacto" class="btn btn-primary btn-lg px-5">Contacta con nosotros</a>
+    <a href="{{ '/#contacto' | url }}" class="btn btn-primary btn-lg px-5">Contacta con nosotros</a>
   </div>
 </section>

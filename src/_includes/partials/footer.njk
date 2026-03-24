@@ -21,7 +21,7 @@
                 <ul class="list-unstyled mb-0">
                     {% for link in nav.links %}
                     <li class="mb-1">
-                        <a class="text-white-50 text-decoration-none small" href="{{ link.url }}">{{ link.label }}</a>
+                        <a class="text-white-50 text-decoration-none small" href="{{ link.url | url }}">{{ link.label }}</a>
                     </li>
                     {% endfor %}
                 </ul>

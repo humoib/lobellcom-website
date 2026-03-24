@@ -7,7 +7,7 @@
         <meta name="author" content="{{ site.author }}" />
         <title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | url }}" />
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,9 +15,9 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="/css/styles.css" rel="stylesheet" />
+        <link href="{{ '/css/styles.css' | url }}" rel="stylesheet" />
         <!-- Lobellcom brand CSS -->
-        <link href="/css/lobellcom.css" rel="stylesheet" />
+        <link href="{{ '/css/lobellcom.css' | url }}" rel="stylesheet" />
         {% block head %}{% endblock %}
     </head>
     <body class="d-flex flex-column min-vh-100">
@@ -29,7 +29,7 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="/js/scripts.js"></script>
+        <script src="{{ '/js/scripts.js' | url }}"></script>
         {% block scripts %}{% endblock %}
     </body>
 </html>
