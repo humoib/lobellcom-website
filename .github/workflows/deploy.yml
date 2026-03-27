@@ -36,7 +36,7 @@ jobs:
       - name: Build with Eleventy
         run: npm run build
         env:
-          ELEVENTY_PATH_PREFIX: /lobellcom-website/
+          ELEVENTY_PATH_PREFIX: /
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
