@@ -36,14 +36,20 @@ permalink: /servicios/
         <h2 class="fw-bold mb-1">{{ service.name }}</h2>
         <p class="text-muted mb-3">{{ service.subtitle }}</p>
         <p class="mb-4">{{ service.description }}</p>
+        {% for para in service.paragraphs %}
+        <p class="mb-3">{{ para }}</p>
+        {% endfor %}
         <ul class="list-unstyled">
           {% for feature in service.features %}
           <li class="mb-2 d-flex gap-2">
             <i class="bi bi-check-circle-fill text-dark flex-shrink-0 mt-1"></i>
-            <span>{{ feature }}</span>
+            <span>{{ feature | safe }}</span>
           </li>
           {% endfor %}
         </ul>
+        {% for para in service.closing %}
+        <p class="mb-3">{{ para | safe }}</p>
+        {% endfor %}
         <div class="d-flex gap-2 mt-3">
           <a href="{{ '/#contacto' | url }}" class="btn btn-dark">Solicitar información</a>
           <a href="{{ '/' | url }}" class="btn btn-outline-secondary"><i class="bi bi-house me-1"></i>Inicio</a>
@@ -65,14 +71,20 @@ permalink: /servicios/
         <h2 class="fw-bold mb-1">{{ service.name }}</h2>
         <p class="text-muted mb-3">{{ service.subtitle }}</p>
         <p class="mb-4">{{ service.description }}</p>
+        {% for para in service.paragraphs %}
+        <p class="mb-3">{{ para }}</p>
+        {% endfor %}
         <ul class="list-unstyled">
           {% for feature in service.features %}
           <li class="mb-2 d-flex gap-2">
             <i class="bi bi-check-circle-fill text-dark flex-shrink-0 mt-1"></i>
-            <span>{{ feature }}</span>
+            <span>{{ feature | safe }}</span>
           </li>
           {% endfor %}
         </ul>
+        {% for para in service.closing %}
+        <p class="mb-3">{{ para | safe }}</p>
+        {% endfor %}
         <div class="d-flex gap-2 mt-3">
           <a href="{{ '/#contacto' | url }}" class="btn btn-dark">Solicitar información</a>
           <a href="{{ '/' | url }}" class="btn btn-outline-secondary"><i class="bi bi-house me-1"></i>Inicio</a>

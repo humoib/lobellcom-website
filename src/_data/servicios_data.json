@@ -112,6 +112,31 @@
         "Informes de seguridad detallados en tiempo real",
         "Mínimo impacto en el rendimiento del sistema"
       ]
+    },
+    {
+      "slug": "soluciones-microsoft",
+      "name": "Soluciones Microsoft",
+      "tagline": "Distribuidores de licencias Microsoft",
+      "subtitle": "Soluciones Microsoft para impulsar tu empresa",
+      "heading": "Soluciones Microsoft para impulsar tu empresa",
+      "image": "/assets/img/servicios/soluciones-microsoft.png",
+      "description": "En nuestra empresa somos distribuidores de licencias Microsoft, ofreciendo a nuestros clientes acceso a las herramientas tecnológicas necesarias para mejorar su productividad, comunicación y seguridad.",
+      "paragraphs": [
+        "Ponemos a tu disposición soluciones Microsoft adaptadas a las necesidades de cada negocio, tanto para pequeñas empresas como para organizaciones que buscan optimizar sus recursos tecnológicos.",
+        "Trabajamos con soluciones como:"
+      ],
+      "features": [
+        "<strong>Microsoft 365:</strong> Word, Excel, PowerPoint, Outlook y otras herramientas esenciales para el día a día.",
+        "<strong>Microsoft Teams:</strong> Facilita la comunicación y colaboración entre equipos.",
+        "<strong>Exchange Online:</strong> Correo electrónico profesional y gestión avanzada de comunicaciones.",
+        "<strong>OneDrive y SharePoint:</strong> Almacenamiento, gestión y colaboración documental en la nube.",
+        "<strong>Licencias Windows y otras soluciones Microsoft:</strong> Para equipar y gestionar tus dispositivos y entornos de trabajo."
+      ],
+      "closing": [
+        "Nuestro objetivo es ayudarte a elegir las licencias que mejor se adapten a tu empresa, ofreciéndote asesoramiento personalizado y un servicio cercano.",
+        "<strong>La tecnología que tu empresa necesita, con el respaldo de Microsoft y nuestro compromiso de servicio.</strong>",
+        "Contacta con nosotros y te ayudaremos a encontrar la solución más adecuada para tu negocio."
+      ]
     }
   ]
 }
